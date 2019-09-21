@@ -1,0 +1,18 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /aws-govtech-back
+hooks:
+  BeforeInstall:
+    - location: bootstrap/xBuildAllCD.sh
+      timeout: 300
+      runas: root
+  ApplicationStart:
+    - location: bootstrap/xStartAllCD.sh
+      timeout: 300
+      runas: root
+  ApplicationStop:
+    - location: bootstrap/xStopAll.sh
+      timeout: 300
+      runas: root

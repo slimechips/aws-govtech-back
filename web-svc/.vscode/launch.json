@@ -10,7 +10,7 @@
       "request": "attach",
       "name": "Launch Program",
       "preLaunchTask": "nodemon listen",
-      "port": 9232,
+      "port": 9229,
       "timeout": 1000,
       "restart": true,
       "outFiles": [
@@ -21,7 +21,7 @@
       "type": "node",
       "request": "attach",
       "name": "Attach Debugger",
-      "port": 9232,
+      "port": 9229,
       "timeout": 1000,
       "restart": true,
       "outFiles": [
