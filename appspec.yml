@@ -9,7 +9,7 @@ hooks:
       timeout: 300
       runas: root
   ApplicationStart:
-    - location: bootstrap/xStartAllCD.sh
+    - location: bootstrap/xStartAll.sh
       timeout: 300
       runas: root
   ApplicationStop:
