@@ -18,10 +18,10 @@ app.use(bodyParser.json()); // Body Parser Middle Ware
 app.use(reqLogger); // Logger Middleware
 
 // Init user controller internal routes here
-userController.router.get('/:username/password', userController.getLogin);
+userController.router.get('/deeplink', userController.getLogin);
 
 // Add custom controller routes here
-app.use('/user', userController.router);
+app.use('/main', userController.router);
 
 // Error Handling Middleware goes here
 app.use(errorHandler);

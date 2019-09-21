@@ -34,3 +34,5 @@ First make sure you have Angular CLI installed.
 ## Initialise a Node/Typscript/Express/eslint/nodemon/debugger microservice
 
 Simply copy the `sample-service` from `bootstrap` into root directory, rename it and edit the name and description in `<new-service>/package.json`
+
+/usr/local/lib/nodejs/node-v10.16.0-linux-x64/lib/node_modules/forever/bin/forever start --minUptime 5000 --spinSleepTime 2000 -c "node --require ts-node/register" app.ts
