@@ -19,6 +19,7 @@ app.use(reqLogger); // Logger Middleware
 
 // Init user controller internal routes here
 userController.router.get('/deeplink', userController.getLogin);
+userController.router.get('/loginpoll', userController.pollLogin);
 
 // Add custom controller routes here
 app.use('/main', userController.router);

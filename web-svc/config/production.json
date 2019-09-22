@@ -3,5 +3,5 @@
   "endpoints_file": "../etc/endpoints.json",
   "client_id": "estcollabmit",
   "client_secret": "TWw_pWbMTJHaYBcNC-2I18Gp",
-  "asp_endpoint": "https://sandbox.api.ndi.gov.sg/asp/api/v1/asp/di-auth"
+  "asp_endpoint": "https://sandbox.api.ndi.gov.sg/asp/api/v1/asp"
 }
