@@ -48,6 +48,7 @@ const _startPoll = (authReqId: string): Promise<object> => {
       _pollForLogin(authReqId)
         .then((data: object) => {
           clearInterval(poll);
+          console.info('error cleared');
           resolve(data);
         })
         .catch((err: Error) => {
